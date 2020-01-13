@@ -1,0 +1,926 @@
+
+
+.smartBankingWrap {
+    padding: 35px 0;
+}
+
+.smartBankingList {
+    border: 1px solid #d1cbcb;
+    padding: 10px 25px;
+    position: relative;
+}
+
+.smartBankingList .smartWayCounter {
+    position: absolute;
+    background: url(/applications/filter-poc/images/smart-service-list-bottom.png) center no-repeat;
+    text-align: center;
+    width: 220px;
+    height: 94px;
+    bottom: -93px;
+    left: 50%;
+    margin-left: -110px;
+    border-top: 0 none;
+    text-align: center;
+    line-height: 1;
+}
+
+.smartBankingList .smartWayCounter:before {
+    position: absolute;
+    bottom: -2px;
+    background: url(/applications/filter-poc/images/sprite.png) -500px -749px no-repeat;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    margin-left: -12px;
+    left: 50%;
+    content: "";
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+
+.smartMainText {
+    font-size: 20px;
+    color: #4f4f4f;
+    font-weight: 700;
+    margin-bottom: 5px;
+    display: block;
+    font-weight: 700;
+    margin-top: 10px;
+    line-height: 1.3;
+}
+
+.smartWayCounter .smartCounterText {
+    font-size: 20px;
+    color: #4f4f4f;
+    font-weight: 700;
+    margin-bottom: 5px;
+    display: block;
+    font-weight: 700;
+    margin-top: 10px;
+    line-height: 1.3;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.smartWayCounter .smartCounterText.active {
+    opacity: 1;
+    visibility: visible;
+    font-size: 40px;
+    color: #ff6633;
+    line-height: 1;
+    margin-top: -15px;
+}
+
+.smartWayCounter span {
+    display: block;
+}
+
+.smartWayCounter .smartCounterTitle {
+    font-size: 20px;
+    color: #4f4f4f;
+    font-weight: 700;
+    margin-bottom: 5px;
+    display: none;
+}
+
+.smartWayCounter .smartCounterTitle.active {
+    display: block;
+}
+
+.smartWayCounter .smartCounterSmallText {
+    font-size: 13px;
+    display: none;
+}
+
+.smartWayCounter .smartCounterSmallText.active {
+    display: block;
+}
+
+.smartBankingList.cols5List ul {
+    margin: 0 -5px;
+}
+
+.smartBankingList.cols5List li {
+    width: 20%;
+    float: left;
+    font-size: 14px;
+    padding-right: 5px;
+    color: #424242;
+    padding-left: 30px;
+    margin: 10px 0;
+}
+
+.smartBankingList ul.bulletText li {
+    background: none;
+    position: relative;
+}
+
+.smartBankingList ul.bulletText li:before {
+    background: url(/applications/filter-poc/images/smart-banking-sprite.png) left top no-repeat;
+    width: 25px;
+    height: 27px;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+
+.smartBankingList ul.bulletText li.listIcon1:before {
+    background-position: left 3px;
+}
+
+.smartBankingList ul.bulletText li.listIcon2:before {
+    background-position: left -23px;
+}
+
+.smartBankingList ul.bulletText li.listIcon3:before {
+    background-position: left -53px;
+}
+
+.smartBankingList ul.bulletText li.listIcon4:before {
+    background-position: left -82px;
+}
+
+.smartBankingList ul.bulletText li.listIcon5:before {
+    background-position: left -113px;
+}
+
+.smartBankingList ul.bulletText li.listIcon6:before {
+    background-position: left -146px;
+}
+
+.smartBankingList ul.bulletText li.listIcon7:before {
+    background-position: left -176px;
+}
+
+.smartBankingList ul.bulletText li.listIcon8:before {
+    background-position: left -208px;
+}
+
+.smartBankingList ul.bulletText li.listIcon9:before {
+    background-position: left -240px;
+}
+
+.smartBankingList ul.bulletText li.listIcon10:before {
+    background-position: left -272px;
+}
+
+.smartBankingList ul.bulletText li.listIcon11:before {
+    background-position: left -298px;
+}
+
+.smartBankingList ul.bulletText li.listIcon12:before {
+    background-position: left -329px;
+}
+
+.smartBankingList ul.bulletText li.listIcon13:before {
+    background-position: left -360px;
+}
+
+.smartBankingList ul.bulletText li.listIcon14:before {
+    background-position: left -392px;
+}
+
+.smartBankingList ul.bulletText li.listIcon15:before {
+    background-position: left -429px;
+}
+
+.smartBankingList ul.bulletText li.listIcon16:before {
+    background-position: left -465px;
+}
+
+.smartBankingList ul.bulletText li.listIcon17:before {
+    background-position: left -498px;
+}
+
+.smartBankingList ul.bulletText li.listIcon18:before {
+    background-position: left -530px;
+}
+
+.smartBankingList ul.bulletText li.listIcon19:before {
+    background-position: left -560px;
+}
+
+.smartBankingList ul.bulletText li.listIcon20:before {
+    background-position: left -594px;
+}
+
+.smartBankingList ul.bulletText li.listIcon21:before {
+    background-position: left -624px;
+}
+
+.smartBankingList ul.bulletText li.listIcon22:before {
+    background-position: left -655px;
+}
+
+.smartBankingList ul.bulletText li.listIcon23:before {
+    background-position: left -745px;
+}
+
+.smartBankingList ul.bulletText li.listIcon24:before {
+    background-position: left -683px;
+}
+
+.smartBankingList ul.bulletText li.listIcon25:before {
+    background-position: left -716px;
+}
+
+.smartBankingList li a {
+    color: #424242;
+}
+
+.smartBankingList li a:hover {
+    color: #ff6633;
+}
+
+.smartBankingList li.related a {
+    color: #424242;
+    text-decoration: underline;
+}
+
+.smartBankingList li.active.related a, .smartBankingList li.active a {
+    color: #ff6633;
+}
+
+.smartAndSafeBankingTabs .bulletText.cols2List li {
+    width: 50%;
+    float: left;
+    padding-right: 15px;
+    padding-left: 28px;
+}
+
+.smartWayInfoWrap {
+    background: url(/applications/filter-poc/images/smart-way-icon-bg.jpg) center no-repeat;
+    background-size: cover;
+    height: 642px;
+    margin-top: 30px;
+}
+
+.smartWayInfoWrap .container {
+    padding: 60px 0;
+    height: 100%;
+}
+
+.smartWayInfoWrap .container {
+    position: relative;
+}
+
+.smartAndSafeBanking {
+    padding: 60px 0 0;
+}
+
+.noteText {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 22px;
+    color: #fff;
+}
+
+.roundBoxBg .roundBoxText {
+    width: 146px;
+    height: 146px;
+    text-align: center;
+    font-size: 17px;
+    color: #fff;
+    border: 2px solid rgba(255, 255, 255, 0.38);
+    padding: 5px;
+    vertical-align: middle;
+    display: block;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 1.2;
+    outline: 0 none;
+    transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+}
+
+.roundBoxBg .roundBoxText.roundBox1 {
+    width: 125px;
+    height: 125px;
+}
+
+.roundBoxBg .roundBoxText.roundBox2 {
+    width: 146px;
+    height: 146px;
+}
+
+.roundBoxBg .roundBoxText.roundBox3 {
+    width: 90px;
+    height: 90px;
+}
+
+.roundBoxBg .roundBoxText.roundBox4 {
+    background: #ff6633;
+    text-decoration: none;
+    width: 151px;
+    height: 151px;
+    font-weight: 700;
+    padding: 20px;
+    border-color: #ffffff;
+}
+
+.roundBoxText.mConnectPlus {
+    top: 60px;
+    left: 120px;
+}
+
+.roundBoxText.mobileWallet {
+    top: 166px;
+    left: -15px;
+}
+
+.roundBoxText.mPassbook {
+    top: 338px;
+    left: 28px;
+}
+
+.roundBoxText.cashOnMobile {
+    top: 170px;
+    left: 396px;
+}
+
+.roundBoxText.rewardzApp {
+    top: 93px;
+    left: 264px;
+}
+
+.roundBoxText.mobileBankingBox {
+    top: 293px;
+    left: 297px;
+}
+
+.roundBoxText.interNetBankingBox {
+    top: 382px;
+    left: 483px;
+}
+
+.roundBoxText.missCallFacility {
+    top: 44px;
+    left: 690px;
+}
+
+.roundBoxText.mapyUpi {
+    top: 461px;
+    left: 280px;
+}
+
+.roundBoxText.branchBankingBox {
+    top: 108px;
+    left: 539px;
+}
+
+.roundBoxText.dummyConnect {
+    top: 58px;
+    left: 937px;
+}
+
+.roundBoxText.contactCenter {
+    top: 188px;
+    left: 725px;
+}
+
+.roundBoxText.accOpeningKiosk {
+    top: 331px;
+    left: 761px;
+}
+
+.roundBoxText.elobby {
+    top: 482px;
+    left: 773px;
+}
+
+.roundBoxText.atms {
+    top: 105px;
+    left: 832px;
+}
+
+.roundBoxText.digitalBankingBox {
+    top: 219px;
+    left: 870px;
+}
+
+.roundBoxText.multifuncitonKiosk {
+    top: 330px;
+    left: 1011px;
+}
+
+.roundBoxText.expressLobby {
+    top: 88px;
+    left: 1101px;
+}
+
+.roundBoxText.cashRecyclers {
+    top: 190px;
+    left: 1042px;
+}
+
+.roundBoxText.phoneBoxWrap {
+    top: 240px;
+    left: 230px;
+}
+
+.roundBoxText.mInvest {
+    top: 220px;
+    left: 167px;
+}
+
+.roundBoxText.bhimApp {
+    top: 420px;
+    left: 167px;
+}
+
+.roundBoxText.debitCards {
+    top: 277px;
+    left: 496px;
+}
+
+.roundBoxText.giftCards {
+    top: 440px;
+    left: 657px;
+}
+
+.roundBoxText.travelEasyCards {
+    top: 290px;
+    left: 617px;
+}
+
+.roundBoxText.passbookPrinters {
+    top: 420px;
+    left: 880px;
+}
+
+.roundBoxText.phoneBoxWrap .phoneBox, .calcBoxWrap .calcbox, .moniterBoxWrap .moniterBox {
+    text-indent: -9999px;
+    display: block;
+}
+
+.phoneBoxWrap .phoneBox {
+    background: url(/applications/filter-poc/images/sprite.png) -1122px -1282px no-repeat;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    margin-left: -25px;
+    left: 50%;
+}
+
+.roundBoxText.moniterBoxWrap {
+    top: 318px;
+    left: 685px;
+}
+
+.moniterBoxWrap .moniterBox {
+    background: url(/applications/filter-poc/images/sprite.png) -1114px -811px no-repeat;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    margin-left: -25px;
+    left: 50%;
+}
+
+.roundBoxText.calcBoxWrap {
+    top: 208px;
+    left: 1058px;
+}
+
+.calcBoxWrap .calcbox {
+    background: url(/applications/filter-poc/images/sprite.png) -1118px -659px no-repeat;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    margin-left: -25px;
+    left: 50%;
+}
+
+.roundBoxText .mobileBankingIcon, .roundBoxText .internetBanking, .roundBoxText .branchBanking, .roundBoxText .digitalBanking {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.mobileBankingIcon {
+    background-position: -381px -1680px;
+}
+
+.internetBanking {
+    background-position: -450px -1680px;
+}
+
+.branchBanking {
+    background-position: -926px -1538px;
+}
+
+.digitalBanking {
+    background-position: -528px -1680px;
+}
+
+.roundBoxText.inactive {
+    transform: scale(0.80);
+    opacity: 0.6;
+    -webkit-transform: scale(0.80);
+    transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+}
+
+a.roundBoxText.active {
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+}
+
+a.roundBoxText:hover, a.roundBoxText.active {
+    background: rgba(0, 0, 0, 0.65);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    border-color: #ff6633;
+}
+
+.roundBoxBg .roundBoxText.roundBox4:hover, .roundBoxBg .roundBoxText.roundBox4.active {
+    background: none;
+}
+
+.roundBoxText .servicesTitle {
+    display: block;
+    width: 100%;
+}
+
+.bdrdBox {
+    border: 0 none;
+    padding: 7px 14px 9px;
+    transition: 0.4s;
+}
+
+.roundBoxBg .titleBox {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    width: 100%;
+    left: 0;
+    padding: 5px;
+}
+
+.smartAndSafeBankingTabs .tabContainer {
+    padding: 20px 0;
+}
+
+.smartContactUs {
+    border-top: 0 none;
+    border-bottom: 1px solid #b8b8b8;
+    padding: 40px 0;
+}
+
+.smartContactUs .bottomCotactDetail .leftCol {
+    border-right: 0 none;
+    width: 25%;
+}
+
+.smartContactUs .leftCol h3 {
+    color: #ff6633;
+    margin-bottom: 0;
+}
+
+.smartContactUs .leftCol p {
+    color: #666666;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.smartContactUs .bottomCotactDetail .rightLinks .icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.smartContactUs .bottomCotactDetail .rightCol {
+    width: 75%;
+}
+
+.smartContactUs .bottomCotactDetail .rightLinks li {
+    text-align: left;
+}
+
+.hindiDoc .smartContactUs .bottomCotactDetail .rightLinks li:nth-child(2) {
+    width: 20.5% !important;
+}
+
+.hindiDoc .smartContactUs .bottomCotactDetail .rightLinks li:nth-child(3) {
+    width: 28.5% !important;
+}
+
+.smartContactUs .callIcon {
+    background-color: #fff;
+    background-position: -1305px -1313px;
+    border: 1px solid #d5d5d5;
+    border-radius: 50%;
+    height: 69px;
+    width: 69px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+
+.smartContactUs a:hover .callIcon, .wob .smartContactUs .callIcon {
+    background-position: -1378px -1313px;
+    background-color: #ff6633;
+}
+
+.smartContactUs .bottomCotactDetail .rightLinks {
+    margin-top: 0;
+    padding-left: 30px;
+}
+
+.smartContactUs .icon1 {
+    background-position: -1202px -1255px;
+}
+
+.smartContactUs a:hover .icon1, .wob .smartContactUs a .icon1 {
+    background-position: -1284px -1255px;
+}
+
+.smartContactUs .icon2 {
+    background-position: -1198px -966px;
+}
+
+.smartContactUs a:hover .icon2, .wob .smartContactUs a .icon2 {
+    background-position: -1278px -966px;
+}
+
+.smartContactUs .icon3 {
+    background-position: -1200px -1125px;
+}
+
+.smartContactUs a:hover .icon3, .wob .smartContactUs a .icon3 {
+    background-position: -1281px -1125px;
+}
+
+.roundBoxText.hoverCircle:before {
+    width: 96%;
+    height: 96%;
+    background: url(/applications/filter-poc/images/circle-hover.svg) center no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    right: 2%;
+    bottom: 2%;
+    content: '';
+    opacity: 0;
+    visibility: hidden;
+    animation: 5s linear 0s normal none infinite running spin, all 0.5s ease;
+    -webkit-animation: 5s linear 0s normal none infinite running spin, all 0.5s ease;
+    animation: spin 5s linear infinite;
+}
+
+.roundBoxText.hoverCircle:hover:before {
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+
+.roundBoxText.hoverCircle .hightLightBoxCircle {
+    opacity: 0;
+    visibility: hidden;
+    tansition: all 0.3s ease;
+    -webkit-tansition: all 0.3s ease;
+}
+
+.roundBoxText.hoverCircle.active {
+    border-width: 2px;
+}
+
+.roundBoxText.hoverCircle.active .hightLightBoxCircle {
+    opacity: 1;
+    visibility: visible;
+    tansition: all 0.3s ease;
+    -webkit-tansition: all 0.3s ease;
+}
+
+.roundBoxText.hoverCircle .hightLightBoxCircle svg path {
+    stroke: #ffffff !important;
+    stroke-width: 2;
+}
+
+.roundBoxText.hoverCircle:hover .hightLightBoxCircle {
+    opacity: 0;
+    visibility: hidden;
+    tansition: all 0.3s ease;
+    -webkit-tansition: all 0.3s ease;
+}
+
+.roundBoxText.roundBox4.inactive .hightLightBoxCircle {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.roundBoxText.roundBox4.active .hightLightBoxCircle, .roundBoxText.roundBox4:hover .hightLightBoxCircle {
+    opacity: 1;
+    visibility: visible;
+}
+
+.hightLightBoxCircle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    animation: spin 4s linear 0s infinite running;
+    -webkit-animation: spin 4s linear 0s infinite running;
+    animation: spin 4s linear infinite;
+    opacity: 0
+}
+
+.interNetBankingBox.roundBox4 .hightLightBoxCircle svg {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    bottom: -4px;
+    top: auto;
+    left: 0;
+}
+
+.digitalBankingBox.roundBox4 .hightLightBoxCircle svg {
+    transform: rotate(-62deg);
+    -webkit-transform: rotate(-62deg);
+    right: auto;
+    left: 0;
+}
+
+.hightLightBoxCircle svg {
+    fill: #ff6633;
+    height: 28%;
+    position: absolute;
+    right: 0;
+    top: -4px;
+    width: 55%;
+    z-index: 1;
+}
+
+.roundBoxText.roundBox3 .hightLightBoxCircle svg {
+    height: 33%;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -moz-transform: rotateZ(0deg);
+        -webkit-transform: rotateZ(0deg);
+        -o-transform: rotateZ(0deg);
+        -ms-transform: rotateZ(0deg);
+    }
+
+    100% {
+        -moz-transform: rotateZ(360deg);
+        -webkit-transform: rotateZ(360deg);
+        -o-transform: rotateZ(360deg);
+        -ms-transform: rotateZ(360deg);
+    }
+}
+
+@-moz-keyframes spin {
+    0% {
+        -moz-transform: rotateZ(0deg);
+        -webkit-transform: rotateZ(0deg);
+        -o-transform: rotateZ(0deg);
+        -ms-transform: rotateZ(0deg);
+    }
+
+    100% {
+        -moz-transform: rotateZ(360deg);
+        -webkit-transform: rotateZ(360deg);
+        -o-transform: rotateZ(360deg);
+        -ms-transform: rotateZ(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        -moz-transform: rotateZ(0deg);
+        -webkit-transform: rotateZ(0deg);
+        -o-transform: rotateZ(0deg);
+        -ms-transform: rotateZ(0deg);
+    }
+
+    100% {
+        -moz-transform: rotateZ(360deg);
+        -webkit-transform: rotateZ(360deg);
+        -o-transform: rotateZ(360deg);
+        -ms-transform: rotateZ(360deg);
+    }
+}
+
+@-ms-keyframes spin {
+    0% {
+        -moz-transform: rotateZ(0deg);
+        -webkit-transform: rotateZ(0deg);
+        -o-transform: rotateZ(0deg);
+        -ms-transform: rotateZ(0deg);
+    }
+
+    100% {
+        -moz-transform: rotateZ(360deg);
+        -webkit-transform: rotateZ(360deg);
+        -o-transform: rotateZ(360deg);
+        -ms-transform: rotateZ(360deg);
+    }
+}
+
+.new-navigation{
+	width: 100%;
+	text-align: center;
+    margin-top: 70px;
+}
+.smartWayInfoWrap .container{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1170px;
+}
+.sprite {
+    background-image: url(/applications/filter-poc/images/sprite.png);
+    background-repeat: no-repeat;
+}
+
+.smartBankingList {
+    border: 1px solid #d1cbcb;
+    padding: 10px 25px;
+    position: relative;
+}
+ul.bulletText {
+    list-style: none;
+    padding: 0;
+}
+
+.smartBankingList.cols5List ul {
+    margin: 0 -5px;
+}
+ul.bulletText li {
+    background: url(/applications/filter-poc/images/bullet-arrow.png) no-repeat left 7px;
+    font-size: 1.000em;
+    padding: 0 0 0 27px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+.smartBankingList.cols5List li {
+    width: 20%;
+    float: left;
+    font-size: 14px;
+    padding-right: 5px;
+    color: #424242;
+    padding-left: 30px;
+    margin: 10px 0;
+}
+
+.smartBankingList ul.bulletText li {
+    background: none;
+    position: relative;
+}
+.smartBankingList ul.bulletText li:before {
+    background: url(/applications/filter-poc/images/smart-banking-sprite.png) left top no-repeat;
+    width: 25px;
+    height: 27px;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+.smartBankingList ul.bulletText li.listIcon1:before {
+    background-position: left 3px;
+}
+.internetBanking {
+    background-position: -450px -1680px;
+}
+.smartBankingList li a {
+    color: #424242;
+}
+.smartBankingList {
+    border: 1px solid #d1cbcb;
+    padding: 10px 25px;
+    position: relative;
+    display: inline-block;
+
+}
+.links-container{
+	font-family: Meta-Norm;
+	/*width: 920px;*/
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+	min-height: 300px;
+}
