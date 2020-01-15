@@ -12,7 +12,7 @@
 
 .smartBankingList .smartWayCounter {
     position: absolute;
-    background: url(/images/smart-service-list-bottom.png) center no-repeat;
+    background: url(/filter-poc/images/smart-service-list-bottom.png) center no-repeat;
     text-align: center;
     width: 220px;
     height: 94px;
@@ -27,7 +27,7 @@
 .smartBankingList .smartWayCounter:before {
     position: absolute;
     bottom: -2px;
-    background: url(/images/sprite.png) -500px -749px no-repeat;
+    background: url(/filter-poc/images/sprite.png) -500px -749px no-repeat;
     width: 25px;
     height: 25px;
     position: absolute;
@@ -116,7 +116,7 @@
 }
 
 .smartBankingList ul.bulletText li:before {
-    background: url(/images/smart-banking-sprite.png) left top no-repeat;
+    background: url(/filter-poc/images/smart-banking-sprite.png) left top no-repeat;
     width: 25px;
     height: 27px;
     content: "";
@@ -252,7 +252,7 @@
 }
 
 .smartWayInfoWrap {
-    background: url(/images/smart-way-icon-bg.jpg) center no-repeat;
+    background: url(/filter-poc/images/smart-way-icon-bg.jpg) center no-repeat;
     background-size: cover;
     height: 642px;
     margin-top: 30px;
@@ -461,7 +461,7 @@
 }
 
 .phoneBoxWrap .phoneBox {
-    background: url(/images/sprite.png) -1122px -1282px no-repeat;
+    background: url(/filter-poc/images/sprite.png) -1122px -1282px no-repeat;
     width: 50px;
     height: 50px;
     position: absolute;
@@ -477,7 +477,7 @@
 }
 
 .moniterBoxWrap .moniterBox {
-    background: url(/images/sprite.png) -1114px -811px no-repeat;
+    background: url(/filter-poc/images/sprite.png) -1114px -811px no-repeat;
     width: 50px;
     height: 50px;
     position: absolute;
@@ -493,7 +493,7 @@
 }
 
 .calcBoxWrap .calcbox {
-    background: url(/images/sprite.png) -1118px -659px no-repeat;
+    background: url(/filter-poc/images/sprite.png) -1118px -659px no-repeat;
     width: 50px;
     height: 50px;
     position: absolute;
@@ -673,7 +673,7 @@ a.roundBoxText:hover, a.roundBoxText.active {
 .roundBoxText.hoverCircle:before {
     width: 96%;
     height: 96%;
-    background: url(/images/circle-hover.svg) center no-repeat;
+    background: url(/filter-poc/images/circle-hover.svg) center no-repeat;
     background-size: cover;
     position: absolute;
     left: 2%;
@@ -851,7 +851,7 @@ a.roundBoxText:hover, a.roundBoxText.active {
 	max-width: 1170px;
 }
 .sprite {
-    background-image: url(images/sprite.png);
+    background-image: url(/filter-poc/images/sprite.png);
     background-repeat: no-repeat;
 }
 
@@ -869,7 +869,7 @@ ul.bulletText {
     margin: 0 -5px;
 }
 ul.bulletText li {
-    background: url(/images/bullet-arrow.png) no-repeat left 7px;
+    background: url(/filter-poc/images/bullet-arrow.png) no-repeat left 7px;
     font-size: 1.000em;
     padding: 0 0 0 27px;
     margin-bottom: 10px;
@@ -890,7 +890,7 @@ ul.bulletText li {
     position: relative;
 }
 .smartBankingList ul.bulletText li:before {
-    background: url(/images/smart-banking-sprite.png) left top no-repeat;
+    background: url(/filter-poc/images/smart-banking-sprite.png) left top no-repeat;
     width: 25px;
     height: 27px;
     content: "";
